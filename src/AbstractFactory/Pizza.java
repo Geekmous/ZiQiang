@@ -2,10 +2,17 @@ package AbstractFactory;
 
 import java.util.ArrayList;
 
+import AbstractFactory.Ingredient.Cheese;
+import AbstractFactory.Ingredient.Clams;
+import AbstractFactory.Ingredient.Dough;
+import AbstractFactory.Ingredient.Pepperoni;
+import AbstractFactory.Ingredient.Sauce;
+import AbstractFactory.Ingredient.Veggies;
+
 public abstract class Pizza {
 	String name;
-	String dough;
-	String sauce;
+	Dough dough;
+	Sauce sauce;
 	Veggies veggies[];
 	Cheese cheese;
 	Pepperoni pepperoni;
@@ -33,7 +40,7 @@ public abstract class Pizza {
       void setName(String name){
     	  this.name	=	name;
       }
-      public String toString(){
+    //  public String toString(){
     	  
-      }
+    //  }
 }
