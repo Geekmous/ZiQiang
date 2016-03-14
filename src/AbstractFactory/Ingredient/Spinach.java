@@ -1,5 +1,5 @@
 package AbstractFactory.Ingredient;
 
-public class Spinach extends Veggies{
+public class Spinach extends Veggies {
 
 }

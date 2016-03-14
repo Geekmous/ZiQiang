@@ -1,5 +1,5 @@
 package AbstractFactory.Ingredient;
 
-public class FrozenClams extends Clams{
+public class FrozenClams extends Clams {
 
 }

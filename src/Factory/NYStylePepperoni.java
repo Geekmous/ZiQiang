@@ -1,18 +1,17 @@
 package Factory;
 
-public class NYStylePepperoni extends Pizza	
-{
+public class NYStylePepperoni extends Pizza	{
 	
-	void prepare(){
+	void prepare() {
 		 
 	 }
-    void bake(){
+    void bake() {
    	 
     }
-    void cut(){
+    void cut() {
    	 
     }
-    void box(){
+    void box() {
    	 
     }
 }

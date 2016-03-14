@@ -1,5 +1,5 @@
 package AbstractFactory.Ingredient;
 
-public class PlumTomatoSauce extends Sauce{
+public class PlumTomatoSauce extends Sauce {
 
 }

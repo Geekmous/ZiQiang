@@ -1,5 +1,5 @@
 package ActionGamaExample;
 
 public interface WeaponBehavior {
-       public void useWeapon();
+    public void useWeapon();
 }

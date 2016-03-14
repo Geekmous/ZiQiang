@@ -1,5 +1,5 @@
 package AbstractFactory.Ingredient;
 
-public class eggplant extends Veggies{
+public class eggplant extends Veggies {
 
 }

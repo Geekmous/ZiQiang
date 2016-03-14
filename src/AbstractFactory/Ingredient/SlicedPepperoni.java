@@ -1,6 +1,6 @@
 package AbstractFactory.Ingredient;
 
 
-public class SlicedPepperoni extends Pepperoni{
+public class SlicedPepperoni extends Pepperoni {
 
 }

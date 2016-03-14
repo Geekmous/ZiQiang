@@ -1,16 +1,16 @@
 package example.com;
 
 public class Duckcall {
-    QuackBehavior quackBehavior	=	null;
-	Duckcall(){
-    	
+    QuackBehavior quackBehavior	=null;
     
-	}
-	public void setQuackBehavior(QuackBehavior qb){
-		this.quackBehavior	=	qb;
+	Duckcall(){  
 	}
 	
-	public void performQuack(){
+	public void setQuackBehavior(QuackBehavior qb) {
+		this.quackBehavior = qb;
+	}
+	
+	public void performQuack() {
 		this.quackBehavior.quack();
 	}
 }

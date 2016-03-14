@@ -1,6 +1,6 @@
 package AbstractFactory.Ingredient;
 
 
-public class FreshClams extends Clams{
+public class FreshClams extends Clams {
 
 }

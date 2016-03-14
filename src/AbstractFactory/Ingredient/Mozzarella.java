@@ -1,5 +1,5 @@
 package AbstractFactory.Ingredient;
 
-public class Mozzarella extends Cheese{
+public class Mozzarella extends Cheese {
 
 }

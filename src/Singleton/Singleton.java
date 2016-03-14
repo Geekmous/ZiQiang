@@ -6,7 +6,7 @@ public class Singleton {
 		
 	}
 	
-	public static  Singleton getInstace(){
+	public static  Singleton getInstace() {
 		if(uniqueInstance==null){
 			synchronized(Singleton.class){
 				if(uniqueInstance==null){

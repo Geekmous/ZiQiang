@@ -17,29 +17,31 @@ import AbstractFactory.Ingredient.SlicedPepperoni;
 import AbstractFactory.Ingredient.ThinCrustDough;
 import AbstractFactory.Ingredient.Veggies;
 
-public class NYPizzaIngredientFactory implements PizzaIngredientFactory{
+public class NYPizzaIngredientFactory implements PizzaIngredientFactory {
 	
-	public Dough createDough(){
+	public Dough createDough() {
 		return new ThinCrustDough();
 		
 	}	
+	
 	public Sauce createSauce() {
-	return new MarinaraSauce();	
+	    return new MarinaraSauce();	
 	}
 	
-	public Cheese createCheese(){
+	public Cheese createCheese() {
 		return new ReggianoCheese();		
 	}
 	
-	public Veggies[] createVeggies(){
-		Veggies veggies[] =	{new Garlic(),new Onion(),new Mushroom(),new RedPepper()};
+	public Veggies[] createVeggies() {
+		Veggies veggies[] =	{new Garlic(), new Onion(), new Mushroom(), new RedPepper()};
 		return veggies;
 	}
 	
-	public Pepperoni createPepperoni(){
+	public Pepperoni createPepperoni() {
 		return new SlicedPepperoni();
 	}
-	public Clams createClam(){
+	
+	public Clams createClam() {
 		return new FreshClams();
 	}
 }

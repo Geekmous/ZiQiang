@@ -1,7 +1,7 @@
 package ActionGamaExample;
 
-public class AxeBehavior implements WeaponBehavior{
-    public void useWeapon(){
-   	 System.out.println("Axe Attack!");
+public class AxeBehavior implements WeaponBehavior {
+    public void useWeapon() {
+   	    System.out.println("Axe Attack!");
     }
 }

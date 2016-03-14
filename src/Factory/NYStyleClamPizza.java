@@ -1,16 +1,16 @@
 package Factory;
 
-public class NYStyleClamPizza extends Pizza{
-	void prepare(){
+public class NYStyleClamPizza extends Pizza {
+	void prepare() {
 		 
 	 }
-    void bake(){
+    void bake() {
    	 
     }
-    void cut(){
+    void cut() {
    	 
     }
-    void box(){
+    void box() {
    	 
     }
 }

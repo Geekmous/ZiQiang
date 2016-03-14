@@ -1,5 +1,5 @@
 package AbstractFactory.Ingredient;
 
-public class ThickCrusDough extends Dough{
+public class ThickCrusDough extends Dough {
 
 }
