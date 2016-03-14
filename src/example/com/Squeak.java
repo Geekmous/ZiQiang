@@ -2,6 +2,6 @@ package example.com;
 
 public class Squeak implements QuackBehavior {
     public void quack() {
-    	System.out.println("Squeak");
+        System.out.println("Squeak");
     }
 }

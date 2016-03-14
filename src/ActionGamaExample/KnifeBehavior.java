@@ -2,6 +2,6 @@ package ActionGamaExample;
 
 public class KnifeBehavior implements WeaponBehavior {
     public void useWeapon() {
-       System.out.println("Knife Attack!");
+        System.out.println("Knife Attack!");
     }
 }

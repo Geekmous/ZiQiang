@@ -1,11 +1,11 @@
 package Decorator;
 
 public abstract class Beverage {
-		String description = "Unknown Beverage";
+    String description = "Unknown Beverage";
 		
-		public String getDescription(){
-			return this.description;
-		}
+    public String getDescription() {
+        return this.description;
+    }
 		
-		public abstract double cost();
+    public abstract double cost();
 }
